@@ -1,0 +1,177 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    width: 600px;
+    margin: 10px auto;
+border-spacing: 5px 10px;
+empty-cells:show;
+}
+td, th{
+    padding: 10px;
+    border: 1px solid grey;
+}
+tr.even{
+    background-color: lightseagreen;
+    
+}
+tr:hover{
+    background-color: gray;
+}
+
+form{
+ width: 500px;
+    padding: 10px;
+margin: 10px  auto;
+
+
+} */
+
+/* input{
+    border: 1px solid grey;
+padding: 10px;
+margin: 5px;
+font-size: 1em;
+
+}
+input.email{
+     background-image: url('https://store-images.s-microsoft.com/image/apps.28355.9007199266248608.6a399a57-b260-4ce9-b265-c47558f755e1.b4124129-26e8-401d-9989-f8689f69fa3a?mode=scale&q=90&h=300&w=300' ); 
+background-size: 40px;
+background-repeat: no-repeat;
+padding: 10px 10px 10px 40px;
+
+} */
+
+
+/* 
+input.password{
+  
+    background-size: 40px;
+background-repeat: no-repeat;
+padding: 10px 10px 10px 40px;
+
+} */
+
+
+ input:focus{
+
+border-color: royalblue;
+
+}
+
+button{
+    padding: 5px;
+  margin: 5px;
+  font-size: 1em;
+     border: none;
+     background-color: royalblue;
+     color: white;
+     border-radius:5px ;
+     cursor: pointer;
+} */
+
+fieldset{
+border-radius: 5px ;
+border: 1px solid grey;
+   
+}
+legend{
+    
+    padding: 10px;
+   
+color: royalblue;
+font-weight: bold ;
+border-radius: 5PX;
+
+}
+.center{
+    text-align: center;
+}
+label{
+    display: inline-block;
+    width: 100px;
+    text-align:right;
+} */
+ 
+body{
+
+
+  background-color: grey;
+}
+
+.black{
+  background-color: black;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  margin: 5px 10px 5px 10px;
+}
+
+.white{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin: 5px 10px 5px 10px;
+  }
+
+  img{
+      position: absolute;
+      top: 355px;
+      left: 14px;
+  }
+
+ 
+
+
+ img{
+     position: fixed;
+     bottom: 30px;
+     right: 30px;
+ } 
+
+ .first{
+     width: 300px;
+     height: 30px;
+     background-color: red;
+     float: left;
+ }
+ .second{
+    width: 120px;
+    height: 40px; 
+    background-color:blue;
+    float: left;
+
+
+
+}
+.aaaa{
+    clear: both;
+}
+
+@import url("index.css");
+
+/* 
+body {
+    width: 90%;
+    margin: 0 auto;}
+    #content {overflow: auto;}
+    #nav, #feature, #footer {
+    margin: 1%;}
+    .column1, .column2, .column3 {
+    width: 31.3%;
+    float: left;
+    margin: 1%;}
+    .column3 {margin-right: 0%;}
+    li {
+    display: inline;
+    padding: 0.5em;}
+    #nav, #footer {
+    background-color: #efefef;
+    padding: 0.5em 0;}
+    #feature, .article {
+    height: 10em;
+    margin-bottom: 1em;
+    background-color: #efefef;}
+  */
